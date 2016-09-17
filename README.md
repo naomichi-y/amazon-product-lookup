@@ -1,4 +1,4 @@
-# amazon-product-lookup
+# Amazon product lookup
 
 From ASIN code gets UPC and MPN code.
 
