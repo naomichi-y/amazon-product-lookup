@@ -1,2 +1,2 @@
 /vendor/
-*.csv
+/data/result.csv
