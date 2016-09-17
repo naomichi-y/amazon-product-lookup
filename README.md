@@ -21,7 +21,7 @@ B00LWHU9D8
 Run the command.
 
 ```
-php lookup.php --access-key={AWS_ACCESS_KEY} --secret-key={AWS_SECRET_KEY} [--country={AMAZON_COUNTRY_CODE]
+php lookup.php --access-key={AWS_ACCESS_KEY} --secret-key={AWS_SECRET_KEY} [--country={AMAZON_COUNTRY_CODE}]
 ```
 
 Result will be exported to CSV (`data/result.csv`).
