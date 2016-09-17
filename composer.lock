@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "033f5158f523a9172d39cd6493052bc5",
+    "content-hash": "ec9e9cb0a654f26e98c2c67c35b8de06",
+    "packages": [
+        {
+            "name": "corneltek/getoptionkit",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/c9s/GetOptionKit.git",
+                "reference": "076cc41051d6417bf9304fe92f8d9793edac9910"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/c9s/GetOptionKit/zipball/076cc41051d6417bf9304fe92f8d9793edac9910",
+                "reference": "076cc41051d6417bf9304fe92f8d9793edac9910",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "corneltek/phpunit-testmore": "dev-master",
+                "satooshi/php-coveralls": "^1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GetOptionKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yo-An Lin",
+                    "email": "cornelius.howl@gmail.com"
+                }
+            ],
+            "description": "Powerful command-line option toolkit",
+            "homepage": "http://github.com/c9s/GetOptionKit",
+            "time": "2016-07-18 07:44:29"
+        },
+        {
+            "name": "exeu/amazon-ecs-php",
+            "version": "V1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Exeu/Amazon-ECS-PHP-Library.git",
+                "reference": "0083ec73e3f82b4b215f2db17b384d2529636436"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Exeu/Amazon-ECS-PHP-Library/zipball/0083ec73e3f82b4b215f2db17b384d2529636436",
+                "reference": "0083ec73e3f82b4b215f2db17b384d2529636436",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/AmazonECS.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Eichhorn",
+                    "email": "exeu65@googlemail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Amazon ECS PHP Library",
+            "homepage": "https://github.com/Exeu/Amazon-ECS-PHP-Library",
+            "keywords": [
+                "ECS",
+                "Product Advertising",
+                "amazon",
+                "soap"
+            ],
+            "time": "2012-09-16 08:47:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
