@@ -10,7 +10,7 @@ use GetOptionKit\OptionParser;
 $specs = new OptionCollection;
 $specs->add('access-key:', 'option requires a value.')->isa('string')->defaultValue('');
 $specs->add('secret-key:', 'option requires a value.')->isa('string')->defaultValue('');
-$specs->add('country?', 'option requires a value.')->isa('string')->defaultValue('com');
+$specs->add('country?', 'option with optional value.')->isa('string')->defaultValue('com');
 
 $parser = new OptionParser($specs);
 $result = $parser->parse($argv);
